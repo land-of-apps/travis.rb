@@ -1,0 +1,4 @@
+name: travis.rb
+
+packages:
+- path: lib

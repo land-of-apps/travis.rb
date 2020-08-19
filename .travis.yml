@@ -33,3 +33,4 @@ script:
   - bundle exec rake
   - gem build travis.gemspec
   - gem install travis-*.gem
+  - bundle exec rspec spec

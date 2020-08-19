@@ -415,10 +415,14 @@ Gem::Specification.new do |s|
   s.add_dependency "typhoeus",              "~> 0.6", ">= 0.6.8"
   s.add_dependency "json",                  "~> 2.3"
   s.add_dependency "pusher-client",         "~> 0.4"
-  s.add_development_dependency "rspec",     "~> 2.12"
+  #s.add_development_dependency "rspec",     "~> 2.12"
   s.add_development_dependency "rspec-its"
   s.add_development_dependency "sinatra",   "~> 1.3"
   s.add_development_dependency "rack-test", "~> 0.6"
+  
+  # APPMAP
+  s.add_development_dependency "appmap"
+  s.add_development_dependency "rspec"
 
   # Prereleasing on Travis CI
   if ENV['TRAVIS_JOB_NUMBER'] and ENV['TRAVIS_REPO_SLUG'] == 'travis-ci/travis.rb'

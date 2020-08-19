@@ -1,3 +1,5 @@
+require 'appmap/rspec'
+
 require 'support/fake_api'
 require 'support/fake_github'
 require 'support/helpers'
